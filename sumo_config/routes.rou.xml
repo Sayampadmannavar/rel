@@ -1,0 +1,44 @@
+<routes>
+
+    <vType id="car"
+           accel="1.0"
+           decel="4.5"
+           sigma="0.5"
+           length="5"
+           maxSpeed="25"/>
+
+    <route id="north_south"
+           edges="north_in south_out"/>
+
+    <route id="south_north"
+           edges="south_in north_out"/>
+
+    <route id="east_west"
+           edges="east_in west_out"/>
+
+    <route id="west_east"
+           edges="west_in east_out"/>
+
+    <!-- MANY VEHICLES -->
+
+    <vehicle id="car0" type="car" route="north_south" depart="0"/>
+    <vehicle id="car1" type="car" route="south_north" depart="2"/>
+    <vehicle id="car2" type="car" route="east_west" depart="4"/>
+    <vehicle id="car3" type="car" route="west_east" depart="6"/>
+
+    <vehicle id="car4" type="car" route="north_south" depart="8"/>
+    <vehicle id="car5" type="car" route="south_north" depart="10"/>
+    <vehicle id="car6" type="car" route="east_west" depart="12"/>
+    <vehicle id="car7" type="car" route="west_east" depart="14"/>
+
+    <vehicle id="car8" type="car" route="north_south" depart="16"/>
+    <vehicle id="car9" type="car" route="south_north" depart="18"/>
+    <vehicle id="car10" type="car" route="east_west" depart="20"/>
+    <vehicle id="car11" type="car" route="west_east" depart="22"/>
+
+    <vehicle id="car12" type="car" route="north_south" depart="24"/>
+    <vehicle id="car13" type="car" route="south_north" depart="26"/>
+    <vehicle id="car14" type="car" route="east_west" depart="28"/>
+    <vehicle id="car15" type="car" route="west_east" depart="30"/>
+
+</routes>
